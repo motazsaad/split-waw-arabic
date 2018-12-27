@@ -1,5 +1,5 @@
 # split-waw-arabic
-Separate the conjunction Waw in Arabic text 
+Separate the conjunction Waw from Arabic words
 
 ## Main Advantage
 This program helps to normalize Arabic text and reduce word's variations. 
@@ -11,10 +11,11 @@ This program helps to normalize Arabic text and reduce word's variations.
 
 
 ## Methods
-There are two methods: 
+The implementation incudes the following two methods: 
 1. Get the root of the word, if the Waw و still in the root letters, then the Waw is original, else, split Waw and the word.
 2. Use AySpell speller to check the word, if the word + Waw و is in the dictionary, then the Waw is original, else, split Waw and the word. 
 
 ## Usage
 ```python process_waw_rooting.py [-h] -i INFILE -o OUTFILE```
+
 ```python process_waw_ayspell.py [-h] -i INFILE -o OUTFILE```
