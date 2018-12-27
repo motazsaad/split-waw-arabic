@@ -3,6 +3,8 @@ import argparse
 
 # https://github.com/shibukawa/snowball_py
 # https://github.com/snowballstem/pystemmer
+# https://github.com/assem-ch/arabicstemmer
+
 
 
 def separate_waw(text):
