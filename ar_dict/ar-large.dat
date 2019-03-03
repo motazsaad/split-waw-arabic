@@ -1,0 +1,5 @@
+name ar-large
+data-encoding UTF-8
+charset l-ar-large
+affix ar-large
+affix-compress true
