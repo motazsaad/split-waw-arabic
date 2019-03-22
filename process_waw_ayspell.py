@@ -1,9 +1,13 @@
 import argparse
 import aspell
 
+# ar_spell = aspell.Speller('lang', 'ar')
+ar_spell = aspell.Speller(('dict-dir', './ar_ayspell_dict/'),
+                          ('lang', 'ar'),
+                          ('encoding', 'utf-8'))
+
 
 def separate_waw(text):
-    ar_spell = aspell.Speller('lang', 'ar')
     words = line.split()
     sentence = ''
     for word in words:
